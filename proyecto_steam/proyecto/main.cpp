@@ -1,11 +1,22 @@
 #include "mainwindow.h"
-
 #include <QApplication>
+#include "estructuras.h"
+#include <iostream>
 
-int main(int argc, char *argv[])
-{
+
+using namespace std;
+
+int main(int argc, char *argv[]){
+    CrearUsuario(usuario);
+
+    cout<<"nombre de usuario: "<<usuario.username<<endl;
+    cout<<"nombres y apellidos: "<<usuario.nombre<<" "<<usuario.apellido<<endl;
+
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
+
+
+
     return a.exec();
 }
