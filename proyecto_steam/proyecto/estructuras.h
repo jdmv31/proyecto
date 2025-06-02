@@ -25,3 +25,4 @@ typedef struct USUARIO{
 extern USER usuario;
 
 void CrearUsuario(USER &usuario_nuevo);
+int Suma (int n, int n2);
