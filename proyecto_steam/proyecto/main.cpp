@@ -12,6 +12,8 @@ int main(int argc, char *argv[]){
     cout<<"nombre de usuario: "<<usuario.username<<endl;
     cout<<"nombres y apellidos: "<<usuario.nombre<<" "<<usuario.apellido<<endl;
     cout<<"gogogo"<<endl;
+    cout<<"angelo y nicole"<<endl;
+    cout<<"juntos por siempre"<<endl;
 
     QApplication a(argc, argv);
     MainWindow w;
