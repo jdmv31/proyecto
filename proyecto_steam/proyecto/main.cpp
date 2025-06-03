@@ -14,6 +14,7 @@ int main(int argc, char *argv[]){
     cout<<"gogogo"<<endl;
     cout<<"angelo y nicole"<<endl;
     cout<<"juntos por siempre"<<endl;
+    cout<<"ketchup"<<endl;
 
     QApplication a(argc, argv);
     MainWindow w;
